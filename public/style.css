@@ -245,3 +245,29 @@ footer{
 .bloco:last-child {
     border-bottom: none;
 }
+
+/*  RESPONSIVIDADE */
+
+
+/* Tablet */
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+}
+
+
+/* Celular */
+@media (max-width: 480px) {
+  .banner {
+    height: 250px;
+  }
+
+  .conteudo-banner h2 {
+    font-size: 18px;
+  }
+}

@@ -9,18 +9,18 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Ana Ayla Pires Reis </br>
+- Matricula: 919036 </br>
+- Proposta de projeto escolhida: projeto tem como objetivo o desenvolvimento de uma página web responsiva dedicada à divulgação de trilhas e serras localizadas no Brasil. A proposta consiste em criar uma plataforma simples, intuitiva e visualmente atrativa, que permita aos usuários explorar destinos naturais, obter dicas úteis e planejar suas atividades ao ar livre. </br>
+- Breve descrição sobre seu projeto: A aplicação é construída utilizando HTML e CSS, com foco na utilização de recursos como Flexbox, Grid Layout e Media Queries, garantindo uma boa visualização em diferentes dispositivos, como celulares, tablets e computadores. Além disso, o projeto busca oferecer uma interface visual agradável, com imagens e um layout intuitivo, facilitando a navegação do usuário. </br>
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+ <img src="public/img/imagem_desktop.png"
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+ <img src="public/img/image.png" 
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
