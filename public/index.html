@@ -2,144 +2,142 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trilhas & Serras</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trilhas & Serras</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Seu CSS (DEPOIS do Bootstrap) -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header id="header">
-        <h1>🌿 Trilhas e Serras do Brasil</h1>
+  <!-- HEADER -->
+  <header class="bg-success text-white text-center p-3">
+    <h1>🌿 Trilhas e Serras do Brasil</h1>
+    <nav>
+      <a href="#header" class="text-white me-3">Início</a>
+      <a href="#destinos" class="text-white me-3">Destino</a>
+      <a href="#sobre" class="text-white me-3">Sobre</a>
+      <a href="#Contato" class="text-white">Contato</a>
+    </nav>
+  </header>
 
-        <nav>
-            <a href="#header">Início</a>
-            <a href="#destinos">Destino</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#Contato">Contato</a>
-        </nav>
-    </header>
+  <!-- LAYOUT PRINCIPAL -->
+  <div class="container-fluid">
+    <div class="row">
 
-    <main class="layout">
+      <!-- CONTEÚDO -->
+      <main class="col-12 col-md-9">
 
-        <div class="conteudo">
+        <!-- HERO -->
+        <section class="bg-dark text-white text-center py-5">
+          <div class="container">
+            <h2 class="fs-4">Explore as melhores trilhas do Brasil</h2>
+            <p class="lead">Aventure-se pelas serras, cachoeiras e paisagens incríveis</p>
+            <button class="btn btn-success">Explorar agora</button>
+          </div>
+        </section>
 
-            <section class="hero">
-                <div class="hero-text">
-                    <h2>Explore as melhores trilhas do Brasil</h2>
-                    <p>Aventure-se pelas serras, cachoeiras e paisagens incríveis</p>
-                    <button>Explorar agora</button>
+        <!-- SOBRE -->
+        <section id="sobre" class="p-4">
+          <h2>Sobre o site</h2>
+          <p>
+            Nosso objetivo é conectar você com as melhores trilhas e serras do Brasil,
+            oferecendo dicas e experiências incríveis para aventureiros.
+          </p>
+        </section>
+
+        <!-- CARDS -->
+        <section id="destinos" class="container my-4">
+          <h2 class="text-center mb-4">🌄 Destinos em destaque</h2>
+
+          <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card h-100">
+                <img src="img/imagem.serra_mantiqueira.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Serra da Mantiqueira</h5>
+                  <p class="card-text">Uma das serras mais bonitas do Brasil.</p>
                 </div>
-            </section>
+              </div>
+            </div>
 
-            <section class="sobre" id="sobre">
-                <h2>Sobre o site</h2>
-                <p>
-                    Nosso objetivo é conectar você com as melhores trilhas e serras do Brasil,
-                    oferecendo dicas e experiências incríveis para aventureiros.
-                </p>
-            </section>
-
-            <section class="destaques" id="destinos">
-                <h2>🌄 Destinos em destaque</h2>
-
-                <div class="cards">
-
-                    <div class="card">
-                        <img src="img/imagem.serra_mantiqueira.jpg" alt="Serra da Mantiqueira">
-                        <h3>Serra da Mantiqueira</h3>
-                        <p>Uma das serras mais bonitas do Brasil, com trilhas e vistas incríveis.</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="img/imagem.trilhapico.jpg" alt="Pico da Bandeira">
-                        <h3>Trilha do Pico da Bandeira</h3>
-                        <p>Uma das trilhas mais famosas para quem ama aventura!</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="img/imagem.serradomar.webp" alt="Serra do Mar">
-                        <h3>Serra do Mar</h3>
-                        <p>Rica em biodiversidade e perfeita para ecoturismo</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="img/imagem.serradocipo.jpg" alt="Serra do Cipó">
-                        <h3>Serra do Cipó</h3>
-                        <p>Possui diversas cachoeiras e trilhas emocionantes!</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="img/imagem.travessialençóis.jpg" alt="Travessia Lençóis Maranhenses">
-                        <h3>Travessia Lençóis Maranhenses</h3>
-                        <p>Caminhadas intensas nas dunas com banhos em lagoas cristalinas e pernoite em redes em oásis.</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="img/imagem.chapadadiamantina.jpg" alt="Chapada Diamantina">
-                        <h3>Chapada Diamantina</h3>
-                        <p>A região oferece desde trilhas leves até trekkings de vários dias.</p>
-                    </div>
-
+            <!-- CARD 2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card h-100">
+                <img src="img/imagem.trilhapico.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Pico da Bandeira</h5>
+                  <p class="card-text">Trilha famosa para aventureiros.</p>
                 </div>
-            </section>
+              </div>
+            </div>
 
+            <!-- CARD 3 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card h-100">
+                <img src="img/imagem.serradomar.webp" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Serra do Mar</h5>
+                  <p class="card-text">Rica em biodiversidade.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card h-100">
+                <img src="img/imagem.serradocipo.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Serra do Cipó</h5>
+                  <p class="card-text">Trilhas e cachoeiras incríveis.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside class="col-12 col-md-3 bg-light p-3">
+
+        <div class="mb-4">
+          <h5>Dicas</h5>
+          <ul>
+            <li>Leve água</li>
+            <li>Use roupas confortáveis</li>
+            <li>Verifique o clima</li>
+            <li>Não se esqueça dos lanches</li>
+          </ul>
         </div>
 
-        <aside class="sidebar">
+        <div class="mb-4">
+          <h5>Trilhas populares</h5>
+          <ul>
+            <li>Serra da Mantiqueira</li>
+            <li>Pico da Bandeira</li>
+          </ul>
+        </div>
 
-            <div class="bloco">
-                <h3>Dicas</h3>
-                <ul>
-                    <li>Leve água suficiente</li>
-                    <li>Use roupas confortáveis</li>
-                    <li>Verifique o clima</li>
-                    <li>Não deixe lixo na trilha</li>
-                    <li>Leve mapa ou GPS</li>
-                </ul>
-            </div>
+      </aside>
 
-            <div class="bloco">
-                <h3>Trilhas populares</h3>
-                <ul>
-                    <li>Serra da Mantiqueira</li>
-                    <li>Pico da Bandeira</li>
-                    <li>Serra do Mar</li>
-                </ul>
-            </div>
+    </div>
+  </div>
 
-            <div class="bloco">
-                <h3>Mais visitadas</h3>
-                <ul>
-                    <li>Pico da Bandeira</li>
-                    <li>Chapada Diamantina</li>
-                    <li>Serra do Cipó</li>
-                    <li>Pedra da Gávea</li>
-                </ul>
-            </div>
+  <!-- FOOTER -->
+  <footer id="Contato" class="bg-dark text-white text-center p-3">
+    <p>© 2026 Trilhas do Brasil | Ana Ayla</p>
+  </footer>
 
-            <div class="bloco">
-                <h3>Clima ideal</h3>
-                <p>Prefira dias ensolarados ou nublados. Evite trilhas em dias de chuva intensa.</p>
-            </div>
-
-            <div class="bloco">
-                <h3>Nível de trilhas</h3>
-                <ul>
-                    <li>🟢 Fácil</li>
-                    <li>🟡 Moderado</li>
-                    <li>🔴 Difícil</li>
-                </ul>
-            </div>
-
-        </aside>
-
-    </main>
-
-    <footer id="Contato">
-        <p>© 2026 Trilhas do Brasil | Feito por Ana Ayla | Contato: Trilhas@gmail.com</p>
-    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
